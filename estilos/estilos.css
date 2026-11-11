@@ -1,5 +1,5 @@
 nav {
-    background-color: rgb(3, 23, 66);
+    background-color: rgb(2, 2, 56);
     padding: 10px;
 }
 
@@ -34,7 +34,7 @@ aside {
     margin: 1rem;
     border: 1px solid rbg(000/0.2);
     padding: 1rem;
-    background-color: rgb(3, 3, 73);
+    background-color: rgb(1, 1, 56);
     color: #eee;
     text-align: center;
 }
