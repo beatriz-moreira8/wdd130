@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: rgb(2, 2, 56);
     padding: 10px;
@@ -30,19 +36,21 @@ main {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rbg(000/0.2);
-    padding: 1rem;
-    background-color: rgb(1, 1, 56);
-    color: #eee;
+    width: 30rem;
     text-align: center;
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: auto;
+    background-color: rgb(2, 2, 56);
+}
 
+aside h2 {
+    position: absolute;
+    top: 50px;
+    left: 175px;
 }
 
 main img {
@@ -51,10 +59,24 @@ main img {
     border: 1px;
     padding: 1px;
     box-shadow: #000;
+    float: right;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px dotted #000;
     text-align: center;
+}
+
+/*Seletores de classe*/
+.caixa {
+    margin: 1rem;
+    border: 1px solid rbg(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: rgb(199, 199, 241);
+    color: #000;
+}
+
+.indentacao {
+    padding-left: 2rem;
 }
