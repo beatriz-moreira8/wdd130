@@ -1,5 +1,33 @@
+:root {
+    --cor1: #0a3b63;
+    /*azul mar*/
+    --cor2: #a70000;
+    /*vermelho*/
+    --cor3: #ebc803;
+    /*Amarelo*/
+    --font-titulo: "";
+    --font-corpo: "";
+
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-corpo);
+    color: #000;
+}
+
+header {
+    background-color: var(--cor1);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
 }
