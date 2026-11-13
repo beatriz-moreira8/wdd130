@@ -39,6 +39,11 @@ aside {
     width: 30rem;
     text-align: center;
     position: relative;
+    margin: 1px;
+    border: 1rem;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
 }
 
 aside img {
