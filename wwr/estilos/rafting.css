@@ -3,10 +3,12 @@
     /*azul mar*/
     --cor2: #a70000;
     /*vermelho*/
-    --cor3: #ebc803;
+    --cor3: #f09e05;
     /*Amarelo*/
-    --font-titulo: "";
-    --font-corpo: "";
+    --cor4: #fff;
+
+    --font-titulo: "constantia";
+    --font-corpo: "times new roman";
 
 }
 
@@ -22,7 +24,7 @@ body {
 }
 
 header {
-    background-color: var(--cor1);
+    background-color: var(--cor4);
 }
 
 header,
@@ -30,4 +32,56 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--font-titulo);
+    color: #000;
+    text-align: center;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1rem, #000000d8;
+
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--cor1);
+    color: #fff;
+}
+
+article {
+    position: relative;
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+    border: 2 rem, #000000e8;
 }
