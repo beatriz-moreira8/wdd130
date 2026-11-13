@@ -40,7 +40,7 @@ aside {
     text-align: center;
     position: relative;
     margin: 1px;
-    border: 1rem #fff;
+    border: 1rem solid #fff;
     padding: 10px;
     background-color: #fff;
     color: #000;
@@ -61,7 +61,7 @@ aside h2 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px #000;
+    border: 1px solid #000;
     padding: 1px;
     box-shadow: 0 0 30px #000;
     float: right;
