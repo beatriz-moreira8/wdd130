@@ -63,7 +63,7 @@ main img {
     height: auto;
     border: 1px;
     padding: 1px;
-    box-shadow: 1px #000;
+    box-shadow: 0 0 30px #000;
     float: right;
 }
 
