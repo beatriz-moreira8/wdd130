@@ -41,6 +41,10 @@ h2 {
     text-align: center;
 }
 
+h2 {
+    color: var(--cor2);
+}
+
 nav,
 p,
 section,
@@ -49,7 +53,11 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+footer {
+    background-color: var(--cor3);
+}
+
+footer a {
     text-decoration: none;
 }
 
@@ -76,12 +84,16 @@ h1 {
     color: #fff;
 }
 
-article {
-    position: relative;
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: #ffffffdc;
 }
 
 .hero article img {
     float: right;
     width: 200px;
-    border: 2 rem, #000000e8;
+    border: 2px solid, #000000e8;
 }
