@@ -48,7 +48,7 @@ header img {
     height: auto;
 }
 
-/* ===== Navegação: flex na horizontal ===== */
+
 header nav {
     display: flex;
     justify-content: flex-end;
